@@ -18,3 +18,9 @@
 git clone <repo> llm-server
 cd llm-server
 make up
+
+⚠️ Requisitos:
+
+- Docker instalado
+- nvidia-container-toolkit configurado (se for usar GPU)
+
