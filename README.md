@@ -27,3 +27,13 @@ make up
 ### Check using GPU
 
 watch -n1 nvidia-smi
+
+### Using the local model
+
+```bash
+curl http://localhost:11434/api/generate -d '{
+  "model": "mistral",
+  "prompt": "Explique o que é aprendizado por reforço.",
+  "stream": false
+}'
+```
