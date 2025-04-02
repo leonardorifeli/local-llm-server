@@ -24,3 +24,6 @@ make up
 - Docker instalado
 - nvidia-container-toolkit configurado (se for usar GPU)
 
+### Check using GPU
+
+watch -n1 nvidia-smi
