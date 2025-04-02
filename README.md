@@ -12,3 +12,9 @@
 
 - WebUI: http://localhost:3000
 - API Ollama: http://localhost:11434
+
+## How to use
+
+git clone <repo> llm-server
+cd llm-server
+make up
